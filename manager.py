@@ -3,7 +3,7 @@ from os import path
 from templating import templating_model, templating_controller, templating_dto, templating_routes
 CURRENT_PATH = os.path.abspath(os.getcwd())
 PARENT_PATH = os.path.abspath(os.path.join(CURRENT_PATH, os.pardir))
-PROJECT_NAME = os.path.join('flask-api-boilerplate-main copy','app')
+PROJECT_NAME = os.path.join('flask-api-boilerplate-main','app')
 PROJECT_PATH = os.path.join(PARENT_PATH, PROJECT_NAME)
 #PROJECT_PATH = os.path.join()
 
